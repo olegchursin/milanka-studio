@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 const Hero = () => {
   return (
@@ -13,10 +13,10 @@ const Hero = () => {
               data-aos-duration={500}
               data-aos-delay={500}
             >
-              <h2 className="font-size-11 mb-7">Pricing &amp; Plan</h2>
+              <h2 className="font-size-11 mb-7">Pricing</h2>
               <p className="font-size-7 mb-0">
-                Our focus is always on finding the best people to work with. Our
-                bar is high, but you look ready to take on the challenge.
+                We are very transparent with our clients and offer the most
+                straightforward pricing plan.
               </p>
             </div>
           </div>

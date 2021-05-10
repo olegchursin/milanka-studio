@@ -1,4 +1,31 @@
-import React from "react";
+import React from 'react';
+
+export const milankaFAQs = [
+  {
+    question: 'What equipment is being provided?',
+    answer:
+      'We provide a wide variety of lightning equipment. See our Services section for full information and list of photographic equipment available.',
+    aosDuration: 300
+  },
+  {
+    question: 'How ow can I p ay for my reservation',
+    answer:
+      'After you select the reservation duration, you will be redirected to our booking system to Select the time and make a payment online.',
+    aosDuration: 600
+  },
+  {
+    question: 'What is the studio capacity?',
+    answer:
+      'We offer a unique studio space. Unfortunately it is limited to 10 people.',
+    aosDuration: 500
+  },
+  {
+    question: 'Do you have backdrops?',
+    answer:
+      'We sure do. Please visit our Services page for the list of all the backdrops options we provide.',
+    aosDuration: 300
+  }
+];
 
 const Faq = () => {
   return (
@@ -8,120 +35,32 @@ const Faq = () => {
         <div className="row justify-content-center">
           <div className="col-xl-8 col-lg-9">
             <div className="text-center mb-13 mb-lg-19">
-              <h2 className="font-size-9 mb-0">Frequently Asked Question</h2>
+              <h2 className="font-size-9 mb-0">Frequently Asked Questions</h2>
             </div>
           </div>
         </div>
-        {/* End Section Title */}
-        {/* Faqs */}
-        {/* Faqs */}
         <div className="row justify-content-center">
-          {/* Single Faq */}
-          <div className="col-lg-6 col-md-10">
-            <div
-              className="d-flex mb-10 mb-lg-17"
-              data-aos="fade-up"
-              data-aos-duration={300}
-            >
-              <div className="mr-6">
-                <div className="bg-light-orange circle-28 text-white mt-1">
-                  <i className="fa fa-question" />
+          {milankaFAQs.map((faq, index) => (
+            <div key={index} className="col-lg-6 col-md-10">
+              <div
+                className="d-flex mb-10 mb-lg-17"
+                data-aos="fade-up"
+                data-aos-duration={faq.aosDuration ?? 300}
+              >
+                <div className="mr-6">
+                  <div className="bg-light-orange circle-28 text-white mt-1">
+                    <i className="fa fa-question" />
+                  </div>
+                </div>
+                <div className="">
+                  <h4 className="font-size-7 mb-7">{faq.question}</h4>
+                  <p className="font-size-5 pr-md-10 pr-lg-0 mb-0">
+                    {faq.answer}
+                  </p>
                 </div>
               </div>
-              <div className="">
-                <h4 className="font-size-7 mb-7">
-                  Does this template support WordPress?
-                </h4>
-                <p className="font-size-5 pr-md-10 pr-lg-0 mb-0">
-                  A Senior Data Engineer provides technical and delivery
-                  leadership for a team of developers working on data
-                  integration and processing projects. This role will work with
-                  stakeholders and other developers to design and implement
-                  technical data solutions.
-                </p>
-              </div>
             </div>
-          </div>
-          {/* End Single Faq */}
-          {/* Single Faq */}
-          <div className="col-lg-6 col-md-10">
-            <div
-              className="d-flex mb-10 mb-lg-17"
-              data-aos="fade-up"
-              data-aos-duration={600}
-            >
-              <div className="mr-6">
-                <div className="bg-light-orange circle-28 text-white mt-1">
-                  <i className="fa fa-question" />
-                </div>
-              </div>
-              <div className="">
-                <h4 className="font-size-7 mb-7">
-                  Will get any update after purchase?
-                </h4>
-                <p className="font-size-5 pr-md-10 pr-lg-0 mb-0">
-                  A Senior Data Engineer provides technical and delivery
-                  leadership for a team of developers working on data
-                  integration and processing projects. This role will work with
-                  stakeholders and other developers to design and implement
-                  technical data solutions.
-                </p>
-              </div>
-            </div>
-          </div>
-          {/* End Single Faq */}
-          {/* Single Faq */}
-          <div className="col-lg-6 col-md-10">
-            <div
-              className="d-flex mb-10 mb-lg-17"
-              data-aos="fade-up"
-              data-aos-duration={300}
-            >
-              <div className="mr-6">
-                <div className="bg-light-orange circle-28 text-white mt-1">
-                  <i className="fa fa-question" />
-                </div>
-              </div>
-              <div className="">
-                <h4 className="font-size-7 mb-7">
-                  How to contact with your support?
-                </h4>
-                <p className="font-size-5 pr-md-10 pr-lg-0 mb-0">
-                  A Senior Data Engineer provides technical and delivery
-                  leadership for a team of developers working on data
-                  integration and processing projects. This role will work with
-                  stakeholders and other developers to design and implement
-                  technical data solutions.
-                </p>
-              </div>
-            </div>
-          </div>
-          {/* End Single Faq */}
-          {/* Single Faq */}
-          <div className="col-lg-6 col-md-10">
-            <div
-              className="d-flex mb-10 mb-lg-17"
-              data-aos="fade-up"
-              data-aos-duration={600}
-            >
-              <div className="mr-6">
-                <div className="bg-light-orange circle-28 text-white mt-1">
-                  <i className="fa fa-question" />
-                </div>
-              </div>
-              <div className="">
-                <h4 className="font-size-7 mb-7">Do you give any refund?</h4>
-                <p className="font-size-5 pr-md-10 pr-lg-0 mb-0">
-                  A Senior Data Engineer provides technical and delivery
-                  leadership for a team of developers working on data
-                  integration and processing projects. This role will work with
-                  stakeholders and other developers to design and implement
-                  technical data solutions.
-                </p>
-              </div>
-            </div>
-          </div>
-          {/* End Single Faq */}
+          ))}
         </div>
         {/* Button  */}
         <div
@@ -130,9 +69,12 @@ const Faq = () => {
           data-aos-duration={500}
         >
           <p className="font-size-6 mb-0">
-            Still have a question about our service?
-            <a className="text-blue-3 btn-link-with-underline ml-5" href="/#">
-              Contact with us
+            Have more questions? We are happy to answer them.
+            <a
+              className="text-blue-3 btn-link-with-underline ml-5"
+              href="https://studio.milankamilanka.com/contact/"
+            >
+              Contact us
             </a>
           </p>
         </div>
