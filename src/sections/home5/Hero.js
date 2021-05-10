@@ -1,7 +1,6 @@
 import React, { useContext } from 'react'
 
 import GlobalContext from '../../context/GlobalContext'
-import imgH from '../../assets/image/home-5/png/hero-headphone-1.png'
 import creativity from '../../assets/image/milanka/creativity.png'
 import photoshoot from '../../assets/image/milanka/photoshoot.png'
 
@@ -41,7 +40,7 @@ const Hero = ({ className, ...rest }) => {
                 <div className="mt-0">
                   <h4 className="font-size-8 mb-0">See for yorself!</h4>
                   <p className="font-size-6 mb-0">
-                    Watch our studio video tour
+                    Watch the video tour
                   </p>
                 </div>
               </div>
@@ -51,7 +50,7 @@ const Hero = ({ className, ...rest }) => {
           {/* Hero Image */}
           <div className="col-lg-5 col-md-7 col-xs-8 order-1 order-lg-2">
             <div className="pt-lg-3" data-aos="flip-right" data-aos-delay={900}>
-              <img className="w-100" src={photoshoot} alt="" />
+              <img className="w-100" src={creativity} alt="" />
             </div>
           </div>
           {/* End Hero Image */}

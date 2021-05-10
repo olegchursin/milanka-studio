@@ -1,8 +1,8 @@
-import React from "react";
-import { Link } from "gatsby";
+import React from 'react';
+import { Link } from 'gatsby';
 
-import imgLB from "../../assets/image/logo-main-black.png";
-import imgLW from "../../assets/image/logo-main-white.png";
+import imgLB from '../../assets/image/milanka-studio-logo-bk.png';
+import imgLW from '../../assets/image/milanka-studio-logo-wh.png';
 
 const Footer = ({ className, ...rest }) => {
   return (
@@ -30,8 +30,8 @@ const Footer = ({ className, ...rest }) => {
                     />
                   </Link>
                   <p className="font-size-5 mb-0 mt-8 mt-lg-10">
-                    Sophisticated styling with exceptional comfort. Super-soft,
-                    pressure-relieving earpads.
+                    Unique shooting space for professional photography and film
+                    productions in Orange County.
                   </p>
                 </div>
               </div>
@@ -42,39 +42,39 @@ const Footer = ({ className, ...rest }) => {
                   <div className="col-sm-4 col-xs-6">
                     <div className="mb-10 mb-lg-0">
                       <h4 className="font-size-5 font-weight-normal mb-8 text-bali-gray">
-                        Demos
+                        Studio
                       </h4>
                       <ul className="list-unstyled">
                         <li className="mb-6">
                           <Link
-                            to="/#"
+                            to="/about"
                             className="font-size-5 text-lily-white gr-hover-text-dodger-blue-1"
                           >
-                            Saas
+                            About Us
                           </Link>
                         </li>
                         <li className="mb-6">
                           <Link
-                            to="/#"
+                            to="/services"
                             className="font-size-5 text-lily-white gr-hover-text-dodger-blue-1"
                           >
-                            Web application
+                            Services
                           </Link>
                         </li>
                         <li className="mb-6">
                           <Link
-                            to="/#"
+                            to="/pricing"
                             className="font-size-5 text-lily-white gr-hover-text-dodger-blue-1"
                           >
-                            Mobile app
+                            Pricing
                           </Link>
                         </li>
                         <li className="mb-6">
                           <Link
-                            to="/#"
+                            to="/faq"
                             className="font-size-5 text-lily-white gr-hover-text-dodger-blue-1"
                           >
-                            Plugin
+                            FAQ
                           </Link>
                         </li>
                       </ul>
@@ -85,39 +85,39 @@ const Footer = ({ className, ...rest }) => {
                   <div className="col-sm-4 col-xs-6">
                     <div className="mb-10 mb-lg-0">
                       <h4 className="font-size-5 font-weight-normal mb-8 text-bali-gray">
-                        Pages
+                        Milanka Brand
                       </h4>
                       <ul className="list-unstyled">
                         <li className="mb-6">
                           <Link
-                            to="/#"
+                            to="https://milankamilanka.com/pages/about"
                             className="font-size-5 text-lily-white gr-hover-text-dodger-blue-1"
                           >
-                            About us
+                            About Milanka
                           </Link>
                         </li>
                         <li className="mb-6">
                           <Link
-                            to="/#"
+                            to="https://milankamilanka.com/collections/unique-dolls"
                             className="font-size-5 text-lily-white gr-hover-text-dodger-blue-1"
                           >
-                            Career
+                            Unique Dolls
                           </Link>
                         </li>
                         <li className="mb-6">
                           <Link
-                            to="/#"
+                            to="https://milankamilanka.com/collections/milanka"
                             className="font-size-5 text-lily-white gr-hover-text-dodger-blue-1"
                           >
-                            Faq
+                            Clothing
                           </Link>
                         </li>
                         <li className="mb-6">
                           <Link
-                            to="/#"
+                            to="https://milankamilanka.com/pages/artist-guided-classes"
                             className="font-size-5 text-lily-white gr-hover-text-dodger-blue-1"
                           >
-                            Terms &amp; Condition
+                            Artist-guided classes
                           </Link>
                         </li>
                       </ul>
@@ -128,22 +128,22 @@ const Footer = ({ className, ...rest }) => {
                   <div className="col-sm-4 col-xs-8">
                     <div className="mb-10 mb-lg-0 mr-xl-12">
                       <h4 className="font-size-5 font-weight-normal mb-8 text-bali-gray">
-                        Support
+                        Contact
                       </h4>
                       <div className="mt-7">
                         <Link
                           to="/#"
                           className="font-size-5 d-block text-white mb-0"
-                          href="mailto:support@finity.com"
+                          href="mailto:hello@milankamilanka.com"
                         >
-                          support@finity.com
+                          hello@milankamilanka.com
                         </Link>
                         <Link
                           to="/#"
                           className="font-size-5 d-block text-white mb-0"
-                          href="tel:+1-301-340-3946"
+                          href="tel:+1-818-536-9495"
                         >
-                          +1-301-340-3946
+                          (818) 536-9495
                         </Link>
                       </div>
                     </div>
@@ -154,52 +154,22 @@ const Footer = ({ className, ...rest }) => {
             </div>
           </div>
           <div className="border-top border-default-color dark-mode-texts d-flex align-items-center justify-content-center justify-content-sm-between flex-column flex-sm-row flex-wrap pt-11">
-            <div className="mb-10 mb-sm-0">
-              <div className="shadow-3 rounded-4">
-                <form action="/">
-                  <div className="newsletter-3">
-                    <div className="form-group">
-                      <label className="mb-0" htmlFor="mail">
-                        <i className="icon icon-email-84 mb-0" />
-                      </label>
-                      <input
-                        id="mail"
-                        type="email"
-                        className="form-control"
-                        placeholder="Place your email"
-                      />
-                    </div>
-                    <button className="btn btn-dodger-blue-2 rounded-5">
-                      Submit
-                    </button>
-                  </div>
-                </form>
-              </div>
-            </div>
             <div className="">
               <ul className="d-flex align-items-center list-unstyled mb-0">
                 <li>
                   <Link
-                    to="/#"
+                    to="https://www.instagram.com/milanka_brand/"
                     className="pl-5 text-white gr-hover-text-dodger-blue-1 font-size-5 px-3"
                   >
-                    <i className="fab fa-twitter" />
+                    <i className="fab fa-instagram" />
                   </Link>
                 </li>
                 <li>
                   <Link
-                    to="/#"
+                    to="https://www.facebook.com/milankastore"
                     className="pl-5 text-white gr-hover-text-dodger-blue-1 font-size-5 px-3"
                   >
-                    <i className="fab fa-google" />
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to="/#"
-                    className="pl-5 text-white gr-hover-text-dodger-blue-1 font-size-5 px-3"
-                  >
-                    <i className="fab fa-linkedin" />
+                    <i className="fab fa-facebook" />
                   </Link>
                 </li>
               </ul>

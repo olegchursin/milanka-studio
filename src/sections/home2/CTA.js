@@ -1,6 +1,8 @@
-import React from "react";
-import { Link } from "gatsby";
-import backgroundImage from "../../assets/image/home-2/jpg/promo-bg-img.jpg";
+import React from 'react';
+import { Link } from 'gatsby';
+import backgroundImage from '../../assets/image/home-2/jpg/promo-bg-img.jpg';
+
+import backdrop from '../../assets/image/milanka/backdrop-cta.jpeg';
 
 const Content3 = ({ className, ...rest }) => {
   return (
@@ -8,7 +10,7 @@ const Content3 = ({ className, ...rest }) => {
       <div
         className={className}
         {...rest}
-        style={{ backgroundImage: `url(${backgroundImage})` }}
+        style={{ backgroundImage: `url(${backdrop})` }}
       >
         <div className="container">
           <div className="row align-items-center justify-content-center">
@@ -19,14 +21,19 @@ const Content3 = ({ className, ...rest }) => {
                 data-aos-delay="500"
               >
                 <h2 className="font-size-11 mb-7">
-                  Manage your clients smartly with Instappoint.
+                  We work with you to suit your needs.
                 </h2>
                 <p className="font-size-5 line-height-28 px-md-10 px-lg-16 px-xl-25 mb-0">
-                  Time is the most precious thing you have when bootstrapping.
-                  You can't take time to ponder on design.
+                  The studio is available from as little as 1 hour up to to a
+                  long 8 hour day if required. If you are a stylist, musician,
+                  actor or model you can rent the studio space and bring in your
+                  own kit or photographer.
                 </p>
-                <Link to={"#"} className="btn btn-dodger-blue-2 rounded-5 mt-12">
-                  Get Started for Free
+                <Link
+                  to={'#'}
+                  className="btn btn-dodger-blue-2 rounded-5 mt-12"
+                >
+                  See pricing
                 </Link>
               </div>
             </div>

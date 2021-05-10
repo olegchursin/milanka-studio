@@ -1,6 +1,8 @@
-import React from "react";
+import React from 'react';
 
-import imgC from "../../assets/image/home-5/png/l5-content-1-img.png";
+import Link from 'gatsby-link';
+
+import photoshoot01 from '../../assets/image/milanka/photoshoot-02.png';
 
 const Content1 = ({ className, ...rest }) => {
   return (
@@ -14,7 +16,7 @@ const Content1 = ({ className, ...rest }) => {
             data-aos-delay={500}
           >
             <div className="l4-image-group mt-lg-n18 mt-xl-n20 mb-8 mb-lg-0 ml-lg-n15 mr-xl-19">
-              <img className="w-100" src={imgC} alt="" />
+              <img className="w-100" src={photoshoot01} alt="" />
             </div>
           </div>
           <div
@@ -23,12 +25,12 @@ const Content1 = ({ className, ...rest }) => {
             data-aos-delay={500}
           >
             <h3 className="font-size-11 mb-0 mb-10 pr-xs-18 pr-md-0">
-              For everyday, just Speak-to-Chat
+              Studio Equipment
             </h3>
             <p className="font-size-7 mb-0 pr-xs-15 pr-md-0 pl-xl-2 mt-7 mt-lg-0 pr-lg-18">
-              Speak-to-Chat automatically stops the music and lets in ambient
-              sound so you can conduct a conversation – handy if you want to
-              keep your headphones on, or your hands are full
+              We store a wide range of professional lighting equipment, strobes,
+              continuous lights, softboxes, umbrellas, reflectors, light stands,
+              and <Link to="/services">more</Link>.
             </p>
           </div>
         </div>
@@ -46,11 +48,9 @@ const Content1 = ({ className, ...rest }) => {
                   <i className="fa fa-link" />
                 </div>
                 <div className="mt-9">
-                  <h4 className="font-size-8 mb-6">Modern &amp; Exquisite</h4>
+                  <h4 className="font-size-8 mb-6">Roller Backdrop</h4>
                   <p className="font-size-5 mb-0 pr-xl-8">
-                    Adjust ambient sound with the Finity Headphones Connect app
-                    to cancel noise while still allowing through essential
-                    sounds.
+                    2x AW 4 Roller Backdrop Support System Wall
                   </p>
                 </div>
               </div>
@@ -65,11 +65,9 @@ const Content1 = ({ className, ...rest }) => {
                   <i className="fa fa-hourglass-half" />
                 </div>
                 <div className="mt-9">
-                  <h4 className="font-size-8 mb-6">Noise cancellation</h4>
+                  <h4 className="font-size-8 mb-6">Background 107x36</h4>
                   <p className="font-size-5 mb-0 pr-xl-8">
-                    Adjust ambient sound with the Finity Headphones Connect app
-                    to cancel noise while still allowing through essential
-                    sounds.
+                    Background paper 107x36 : black, white, fashion gray
                   </p>
                 </div>
               </div>
@@ -84,11 +82,9 @@ const Content1 = ({ className, ...rest }) => {
                   <i className="fa fa-level-up-alt" />
                 </div>
                 <div className="mt-9">
-                  <h4 className="font-size-8 mb-6">High quality audio</h4>
+                  <h4 className="font-size-8 mb-6">Background 53x36</h4>
                   <p className="font-size-5 mb-0 pr-xl-8">
-                    Adjust ambient sound with the Finity Headphones Connect app
-                    to cancel noise while still allowing through essential
-                    sounds.
+                    Background paper 53x36 : white, pink, mocha, mint
                   </p>
                 </div>
               </div>

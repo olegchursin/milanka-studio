@@ -1,9 +1,9 @@
-import React from "react";
-import { Link } from "gatsby";
+import React from 'react';
+import { Link } from 'gatsby';
 
-import imgC1 from "../../assets/image/home-5/png/l5-content-3-img-1.png";
-import imgC2 from "../../assets/image/home-5/png/l5-content-3-img-2.png";
-import imgC3 from "../../assets/image/home-5/png/l5-content-3-img-3.png";
+import img01 from '../../assets/image/milanka/studio-07.png';
+import img02 from '../../assets/image/milanka/studio-06.png';
+import img03 from '../../assets/image/milanka/studio-08.png';
 
 const Content3 = ({ className, ...rest }) => {
   return (
@@ -19,7 +19,7 @@ const Content3 = ({ className, ...rest }) => {
                 <div className="d-flex flex-column px-3 px-sm-6 w-100 mr-xl-14">
                   {/* single image start */}
                   <img
-                    src={imgC1}
+                    src={img02}
                     alt=""
                     data-aos="zoom-in"
                     data-aos-duration={500}
@@ -28,7 +28,7 @@ const Content3 = ({ className, ...rest }) => {
                   {/* single image end */}
                   {/* single image */}
                   <img
-                    src={imgC2}
+                    src={img01}
                     alt=""
                     data-aos="zoom-in"
                     data-aos-duration={500}
@@ -38,7 +38,7 @@ const Content3 = ({ className, ...rest }) => {
                   {/* single image end */}
                   {/* single image */}
                   <img
-                    src={imgC3}
+                    src={img03}
                     alt=""
                     data-aos="zoom-in"
                     data-aos-duration={500}
@@ -67,20 +67,23 @@ const Content3 = ({ className, ...rest }) => {
                 data-aos="fade-up"
                 data-aos-delay={500}
               >
-                Wear all day in total light-weight comfort
+                Facilities and equipment you need.
               </h2>
               <p
                 className="font-size-7 mb-0"
                 data-aos="fade-up"
                 data-aos-delay={800}
               >
-                Sophisticated styling with exceptional comfort. Super-soft,
-                pressure-relieving earpads in foamed urethane evenly distribute
-                pressure and increase ear/pad contact for a stable fit.
+                Our studio has ample floor space, is fully air-conditioned and
+                features a large shooting cove with high ceiling. We provide
+                coffee, tea, and drinking water free of charge.
               </p>
               <div className="mt-12" data-aos="fade-up" data-aos-delay={900}>
-                <Link to="/#" className="btn btn-sunset btn-xl h-55 rounded-5">
-                  Start 14 Days trial
+                <Link
+                  to="/pricing"
+                  className="btn btn-sunset btn-xl h-55 rounded-5"
+                >
+                  See pricing
                 </Link>
               </div>
             </div>
