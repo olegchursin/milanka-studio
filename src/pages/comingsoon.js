@@ -1,15 +1,15 @@
-import React from "react";
-import PageWrapper from "../components/PageWrapper";
-import imageRight from "../assets/image/inner-page/jpg/comming-soon-img.png";
+import React from 'react';
+import PageWrapper from '../components/PageWrapper';
+import imageRight from '../assets/image/inner-page/jpg/comming-soon-img.png';
 
 const Contact = () => {
   return (
     <>
       <PageWrapper
         themeConfig={{
-          headerClassName: "pt-13 pt-lg-11 dark-mode-texts",
+          headerClassName: 'pt-13 pt-lg-11 dark-mode-texts',
           headerFluid: false,
-          headerSocial: true,
+          headerSocial: true
         }}
       >
         <div className="min-height-100vh d-flex align-items-center bg-dark-cloud pt-24 pt-md-27 pt-lg-25">
@@ -32,44 +32,9 @@ const Contact = () => {
                       data-aos-duration={700}
                       data-aos-once="true"
                     >
-                      Our focus is always on finding the best people to work
-                      with. Our bar is high, but you look ready to take on the
-                      challenge.
+                      This is the future home of Milanka Studio website. Stay
+                      tuned.
                     </p>
-                  </div>
-                  <div
-                    className="pr-lg-17 pr-xl-25"
-                    data-aos="fade-up"
-                    data-aos-duration={900}
-                    data-aos-once="true"
-                  >
-                    <form action="/">
-                      <div className="form-group mb-7">
-                        <input
-                          type="email"
-                          name="email"
-                          className="form-control form-control-lg bg-white rounded-4 text-bali-gray pl-8 font-size-5"
-                          placeholder="Email Address"
-                          id="email"
-                        />
-                      </div>
-                      <div className="max-w-435">
-                        <a
-                          href="#"
-                          className="btn btn-blue-3 w-100 h-55 rounded-4"
-                        >
-                          Send
-                        </a>
-                        <p
-                          className="font-size-5 mt-5 text-gray-chateau"
-                          data-aos="fade-up"
-                          data-aos-duration={1200}
-                          data-aos-once="true"
-                        >
-                          We’ll only send our service related emails
-                        </p>
-                      </div>
-                    </form>
                   </div>
                 </div>
               </div>
