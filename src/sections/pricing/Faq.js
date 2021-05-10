@@ -1,5 +1,7 @@
 import React from 'react';
 
+import Link from 'gatsby-link';
+
 export const milankaFAQs = [
   {
     question: 'What equipment is being provided?',
@@ -69,13 +71,8 @@ const Faq = () => {
           data-aos-duration={500}
         >
           <p className="font-size-6 mb-0">
-            Have more questions? We are happy to answer them.
-            <a
-              className="text-blue-3 btn-link-with-underline ml-5"
-              href="https://studio.milankamilanka.com/contact/"
-            >
-              Contact us
-            </a>
+            Have more questions? We are happy to answer them.{' '}
+            <Link to="/contact">Contact us</Link>
           </p>
         </div>
         {/* Button End */}
