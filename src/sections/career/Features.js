@@ -1,44 +1,59 @@
-import React from "react";
-import FreatureCard2 from "../../components/FreatureCard2";
-import imgE from "../../assets/image/inner-page/png/explore.png";
+import React from 'react';
+import FreatureCard2 from '../../components/FreatureCard2';
+import imgE from '../../assets/image/inner-page/png/explore.png';
 
 const items = [
   {
     icon: imgE,
-    title: "Work from anywhere",
-    content:
-      "Many of us are able to work from home, a café, or a park whenever we want. Yay freedom!",
+    title: 'Strobe Lighting',
+    content: '3x Godox AD600BM'
   },
   {
     icon: imgE,
-    title: "Flexible hours",
-    content:
-      "Need to work around school drop-offs and pick-ups? Just not a morning person? No worries.",
+    title: 'Continuous Lighting',
+    content: '2x Godox VL200'
   },
   {
     icon: imgE,
-    title: "Work and travel",
+    title: 'Beauty Dish',
     content:
-      "You can work and travel around the world for up to three months every year!",
+      '16in/42cm Standard Reflector Beauty Dish with Honeycomb Grid,White Diffuser Sock'
   },
   {
     icon: imgE,
-    title: "Paid parental leave",
+    title: 'Diffuser',
     content:
-      "Many of us are able to work from home, a café, or a park whenever we want. Yay freedom!",
+      'Standard Reflector Lamp Shade Dish Diffuser with 20° /40°/ 60° Honeycomb Grid White Soft Cloth'
   },
   {
     icon: imgE,
-    title: "Yearly bonuses",
+    title: 'Softbox',
     content:
-      "Need to work around school drop-offs and pick-ups? Just not a morning person? No worries.",
+      '27in/70cm 10s Quick Setup Portable Collapsible Hexadecagon Large Parabolic Softbox Diffuser'
   },
   {
     icon: imgE,
-    title: "Smart salary",
+    title: 'Softbox',
     content:
-      "You can work and travel around the world for up to three months every year!",
+      'Phottix raja Quick-Folding strip softbox 30*140 cm (12"-55") - 2 pieces'
   },
+  {
+    icon: imgE,
+    title: 'Softbox',
+    content: 'Phottix Raja Quick-Folding softbox 150cm (59") - 1 piece'
+  },
+  {
+    icon: imgE,
+    title: 'Stands & Mounting',
+    content:
+      'Neewer Pro 100% Stainless Steel Light Stand Tripod with Pulleys, Heavy Duty Max. Height 10ft/305cm Folded Height 3.9ft/120cm ( 2 pieces)'
+  },
+  {
+    icon: imgE,
+    title: 'Stands & Mounting',
+    content:
+      '4x Neewer Photo Studio Lighting Stand Heavy Duty 10 feet/3 meters Support Stand with 4 feet/1.2 meters Hold Arm and Grip Head'
+  }
 ];
 
 const Features = () => {
@@ -54,7 +69,7 @@ const Features = () => {
               data-aos-duration={600}
             >
               <h2 className="font-size-10 letter-spacing-n83">
-                Why you’d love to work with us
+                Studio Equipment
               </h2>
             </div>
           </div>

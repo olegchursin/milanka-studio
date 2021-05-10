@@ -1,21 +1,15 @@
-import React from "react";
+import React from 'react';
 
-import PageWrapper from "../components/PageWrapper";
+import PageWrapper from '../components/PageWrapper';
 
 const Faq = () => {
   return (
     <>
       <PageWrapper
         themeConfig={{
-          headerClassName: "site-header--menu-right",
-          headerButton: (
-            <>
-              <button className="btn btn btn-blue-3 header-btn-2 font-size-3 rounded-5">
-                Start 14 Days Free Trial
-              </button>
-            </>
-          ),
-          footerStyle: "style3",
+          headerClassName: 'site-header--menu-right',
+          headerFluid: false,
+          footerStyle: 'style5'
         }}
       >
         <div className="pt-23 pt-md-26 pt-lg-31 pb-13 pb-md-18 pb-lg-23">

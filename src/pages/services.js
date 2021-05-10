@@ -17,8 +17,9 @@ const Services = () => {
         }}
       >
         <Hero />
-        <CTA />
         <Features />
+        <CTA />
+
         <Jobs />
       </PageWrapper>
     </>

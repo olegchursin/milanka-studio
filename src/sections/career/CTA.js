@@ -1,8 +1,8 @@
-import React, { useContext } from "react";
-import { Link } from "gatsby";
+import React, { useContext } from 'react';
+import { Link } from 'gatsby';
 
-import GlobalContext from "../../context/GlobalContext";
-import imgC from "../../assets/image/inner-page/png/video-bg.png";
+import GlobalContext from '../../context/GlobalContext';
+import imgC from '../../assets/image/milanka/milanka-video-bg.png';
 
 const CTA = () => {
   const gContext = useContext(GlobalContext);
@@ -25,7 +25,7 @@ const CTA = () => {
               <a
                 href="/#"
                 className="video-btn sonar bg-blue-3-op5 text-white circle-98 font-size-8"
-                onClick={(e) => {
+                onClick={e => {
                   e.preventDefault();
                   gContext.toggleVideoModal();
                 }}
@@ -41,16 +41,18 @@ const CTA = () => {
                 data-aos="fade-up"
                 data-aos-duration={600}
               >
-                Working with us
+                Space Highlights
               </h2>
               <p
                 className="font-size-6 mb-0 pr-xs-15 pr-sm-10 pr-xl-15"
                 data-aos="fade-up"
                 data-aos-duration={900}
               >
-                These companies release their own versions of the operating
-                systems with minor changes, and yet always with the same bottom
-                line.{" "}
+                <ul>
+                  <li>2x AW 4 Roller Backdrop Support System Wall</li>
+                  <li>Background paper 107x36 : black, white, fashion gray</li>
+                  <li>Background paper 53x36 : white, pink, mocha, mint</li>
+                </ul>
               </p>
               <div
                 className="mt-11"
@@ -58,10 +60,10 @@ const CTA = () => {
                 data-aos-duration={1200}
               >
                 <Link
-                  to="/#"
+                  to="/pricing"
                   className="btn btn-blue-3 btn-2 font-weight-medium rounded-5"
                 >
-                  See Job Openings
+                  See Pricing
                 </Link>
               </div>
             </div>
