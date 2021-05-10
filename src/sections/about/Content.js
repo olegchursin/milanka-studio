@@ -1,7 +1,9 @@
 import React from 'react';
 
-import imgC from '../../assets/image/inner-page/png/about-content-img-1.png';
+// import imgC from '../../assets/image/inner-page/png/about-content-img-1.png';
 import imgDP from '../../assets/image/home-2/png/dot-pattern-black.png';
+
+import imgC from '../../assets/image/milanka/studio-07.jpeg'
 
 const Content = () => {
   return (

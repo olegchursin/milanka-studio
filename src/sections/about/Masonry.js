@@ -1,11 +1,11 @@
 import React from 'react';
 
-import img1 from '../../assets/image/inner-page/png/masonry-img-1.png';
-import img2 from '../../assets/image/inner-page/png/masonry-img-2.png';
-import img3 from '../../assets/image/inner-page/png/masonry-img-3.png';
-import img4 from '../../assets/image/inner-page/png/masonry-img-4.png';
-import img5 from '../../assets/image/inner-page/png/masonry-img-5.png';
-import img6 from '../../assets/image/inner-page/png/masonry-img-6.png';
+import img1 from '../../assets/image/milanka/studio-01.webp';
+import img2 from '../../assets/image/milanka/studio-02.webp';
+import img3 from '../../assets/image/milanka/studio-03.webp';
+import img4 from '../../assets/image/milanka/studio-04.webp';
+import img5 from '../../assets/image/milanka/studio-06.webp';
+import img6 from '../../assets/image/milanka/studio-05.webp';
 
 const Masonry = () => {
   return (
