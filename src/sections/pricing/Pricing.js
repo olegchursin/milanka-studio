@@ -29,6 +29,7 @@ const Pricing = () => {
                     className="btn btn-blue-3 btn-2 rounded-5"
                     href={item.href}
                     target="_blank"
+                    rel="noreferrer"
                     rel="noopener"
                   >
                     {item.buttonLabel}
